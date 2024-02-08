@@ -30,6 +30,10 @@ public class FileHandler implements Writable{
             throw new MyException("Файл не найден");
         } catch (IOException e) {
             throw new MyException("Ошибка в процессе чтения из файла");
+
+
+
+
         }
     }
 }
