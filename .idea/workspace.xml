@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9e98eab-ec92-4972-bed6-7850a2a81663" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_3/model/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_3/model/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_3/model/writer/FileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_3/model/writer/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_3/model/writer/Writable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_3/model/writer/contacts/Cherepanov.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_3/model/writer/contacts/Ivanov.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_3/model/writer/contacts/Koroleva.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_3/presenter/Presenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_3/view/ConsoleUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_3/view/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_3/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_3/view/commands/AddContact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_3/view/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_3/view/commands/Finish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_3/view/commands/ReadContacts.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2c5fuF2zByivAGo7eQWdcwW5AYL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "onboarding.tips.debug.path": "/Users/evgeniiokhrimenko/Desktop/учеба/Java/Exception5/HomeWork_3/src/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9e98eab-ec92-4972-bed6-7850a2a81663" name="Changes" comment="" />
+      <created>1707406580723</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707406580723</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
