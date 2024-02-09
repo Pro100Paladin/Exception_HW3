@@ -64,7 +64,7 @@ public class Service {
         String lastName;
         String name;
         String middleName;
-        String birthDate = String.valueOf(getDate());
+        LocalDate birthDate = getDate();
         long phoneNumber = getPhoneNumber();
         String gender = getGender();
         if(personalInfo.size() == 3) {
