@@ -7,11 +7,11 @@ public class Contact implements Serializable {
     private String lastName;
     private String name;
     private String middleName;
-    private LocalDate birthDate;
+    private String birthDate;
     private long phoneNumber;
     private String gender;
 
-    public Contact (String lastName, String name, String middleName, LocalDate birthDate, long phoneNumber, String gender){
+    public Contact (String lastName, String name, String middleName, String birthDate, long phoneNumber, String gender){
         this.lastName = lastName;
         this.name =  name;
         this.middleName = middleName;

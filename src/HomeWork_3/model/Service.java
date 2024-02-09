@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
+
 import java.util.List;
 
 public class Service {
@@ -63,7 +64,7 @@ public class Service {
         String lastName;
         String name;
         String middleName;
-        LocalDate birthDate = getDate();
+        String birthDate = String.valueOf(getDate());
         long phoneNumber = getPhoneNumber();
         String gender = getGender();
         if(personalInfo.size() == 3) {
@@ -71,7 +72,7 @@ public class Service {
             name = getName("Имя");
             middleName = getName("Отчество");
         } else {
-            throw new MyException ("Данные введены некорретно");
+            throw new MyException ("Данные введены некорректно");
         }
         return new Contact(lastName, name, middleName, birthDate, phoneNumber, gender);
     }
@@ -89,9 +90,11 @@ public class Service {
                 return true;
             }
         }
-        public LocalDate getDate() throws MyException {
-            LocalDate date = null;
-            String str;
+
+
+    public LocalDate getDate() throws MyException {
+        LocalDate date = null;
+        String str;
             for (int i = 0; i < personalInfo.size(); i++) {
                 if (personalInfo.get(i).matches("[0-9]*\\.+[0-9]*\\.+[0-9]+")) {
                     str = personalInfo.remove(i).replace(".", "-");
